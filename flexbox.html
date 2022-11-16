@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 37px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 0px 41px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        body {
+            background-image: url('fullpagebg.webp');
+
+        }
+
+        .box1 {
+            background-color: red;
+            height: 80vh;
+            width: 700px;
+
+
+        }
+
+        .box2 {
+            background-color: rgb(1, 255, 200);
+            height: 80vh;
+            width: 700px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis iusto adipisci vitae
+                reprehenderit expedita tempore dicta non atque tempora voluptas voluptates, rem soluta!</div>
+            <div class="box2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dicta consectetur ut
+                ipsum quam culpa enim repudiandae natus ducimus odio? Facilis, fugiat officia.</div>
+        </div>
+    </main>
+</body>
+
+</html>
